@@ -5,10 +5,10 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AngularFireModule } from 'angularfire2';
 export const firebaseConfig = {
-  apiKey: "AIzaSyD3r907DxMWaxbqWTT-ltcdxaUQyA3CYgI",
-  authDomain: "ranaco.firebaseapp.com",
-  databaseURL: "https://ranaco.firebaseio.com",
-  storageBucket: "firebase-ranaco.appspot.com"
+  apiKey: 'AIzaSyD3r907DxMWaxbqWTT-ltcdxaUQyA3CYgI',
+  authDomain: 'ranaco.firebaseapp.com',
+  databaseURL: 'https://ranaco.firebaseio.com',
+  storageBucket: 'firebase-ranaco.appspot.com'
 };
 
 @NgModule({
